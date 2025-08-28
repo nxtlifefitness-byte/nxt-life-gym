@@ -3,376 +3,623 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NXT Life Fitness </title>
+    <title>NXT Life Fitness Center & Gym - Premium Fitness in Kiribathgoda</title>
+    <meta name="description" content="Transform your body with professional weight training, fitness training, cardio, CrossFit, aerobics, and expert diet consultancy at Kiribathgoda's premier 5-star rated gym.">
+    <meta name="keywords" content="gym Kiribathgoda, fitness center Kelaniya, weight training, CrossFit, aerobics, personal trainer Sri Lanka">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="NXT Life Fitness Center & Gym - Your Next Level Starts Now">
+    <meta property="og:description" content="Professional fitness training, modern equipment, and certified trainers in Kiribathgoda">
+    <meta property="og:image" content="images/nxt-life-logo.png">
+    <meta property="og:url" content="https://your-domain.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- CSS Files -->
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src="images/logo.png" alt="NXT Life Logo" class="logo-img">
-                <h2>NXT Life Fitness </h2>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <a href="#home" class="logo">
+                    <img src="images/nxt-life-logo.png" alt="NXT Life Fitness Logo" class="logo-img">
+                    <span class="logo-text">
+                        <span class="nxt">NXT</span> <span class="life">Life Fitness</span>
+                    </span>
+                </a>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <div class="mobile-menu" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#trainers">Trainers</a></li>
-                <li><a href="#membership">Membership</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-video">
-            <!-- You'll add your video here -->
-            <video autoplay muted loop>
-                <source src="images/hero-video.mp4" type="video/mp4">
-                <!-- Fallback image if video doesn't work -->
-                <img src="images/hero-bg.jpg" alt="Gym Background">
-            </video>
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-tagline">YOUR NEXT LEVEL STARTS NOW</span>
+                <h1>THE BEST FITNESS CENTER IN KIRIBATHGODA</h1>
+                <p>Transform your body with professional weight training, fitness training, cardio, CrossFit, aerobics, and expert diet consultancy at Kiribathgoda's premier 5-star rated gym.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">JOIN NOW</a>
+                    <a href="tel:+94773672564" class="btn-secondary">CALL US</a>
+                </div>
+            </div>
         </div>
-        <div class="hero-content">
-            <h1>MAKE YOUR BODY STRONGER</h1>
-            <h2>NXT Life Fitness Center & Gym</h2>
-            <p>Transform your life with our state-of-the-art equipment and expert trainers</p>
-            <button class="cta-button">Join Now</button>
+        
+        <div class="hero-slider-nav">
+            <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
-        <div class="about-bg">
-            <video autoplay muted loop>
-                <source src="images/about-video.mp4" type="video/mp4">
-            </video>
-        </div>
+    <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title white-title">About NXT Life</h2>
             <div class="about-content">
-                <div class="about-text">
-                    <h3>Your Fitness Journey Starts Here</h3>
-                    <p>At NXT Life Fitness Center & Gym, we're committed to helping you achieve your fitness goals with our state-of-the-art equipment, expert trainers, and supportive community.</p>
-                    <div class="features">
-                        <div class="feature">✓ Certified Bodybuilding & Fitness Trainers</div>
-                        <div class="feature">✓ Fully Air Conditioned Gym</div>
-                        <div class="feature">✓ State of the Art Equipment</div>
-                        <div class="feature">✓ Personal Training Programs</div>
-                        <div class="feature">✓ Group Fitness Classes</div>
-                        <div class="feature">✓ Nutrition Counseling</div>
+                <div class="about-images">
+                    <div class="image-card">
+                        <img src="images/gym-interior-1.jpg" alt="Modern Gym Interior" loading="lazy">
+                    </div>
+                    <div class="image-card">
+                        <img src="images/gym-equipment.jpg" alt="State-of-the-art Equipment" loading="lazy">
+                    </div>
+                    <div class="image-card">
+                        <img src="images/group-training.jpg" alt="Group Training Sessions" loading="lazy">
+                    </div>
+                    <div class="image-card">
+                        <img src="images/personal-training.jpg" alt="Personal Training" loading="lazy">
                     </div>
                 </div>
-                <div class="owner-section">
-                    <div class="owner-card">
-                        <div class="owner-image">
-                            <img src="images/owner.jpg" alt="Gym Owner">
+                
+                <div class="about-text">
+                    <span class="section-tag">ABOUT NXT LIFE</span>
+                    <h2>Why Choose NXT LIFE Fitness?</h2>
+                    <p>Choose NXT LIFE Fitness for personalized training programs, diverse fitness classes including Aerobics and Zumba, expert guidance from certified trainers, modern air-conditioned facilities, flexible membership hours, and a motivating fitness community in the heart of Kiribathgoda.</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>Professional weight training programs</span>
                         </div>
-                        <div class="owner-info">
-                            <h4>Message from Our Owner</h4>
-                            <p class="owner-quote">"At NXT Life Fitness, we believe every person has the potential to achieve greatness. Our mission is to provide you with the best equipment, expert guidance, and a supportive community to help you transform your life. Join our family and discover what your body is truly capable of!"</p>
-                            <div class="owner-signature">
-                                <strong>- Founder & Owner, NXT Life Fitness</strong>
-                            </div>
+                        <div class="feature-item">
+                            <i class="fas fa-running"></i>
+                            <span>Complete fitness training solutions</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-heartbeat"></i>
+                            <span>Modern cardio equipment and training</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-fire"></i>
+                            <span>High-intensity functional workouts</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-weight"></i>
+                            <span>Body transformation programs</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-music"></i>
+                            <span>Fun aerobics and Zumba classes</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>Professional nutrition guidance</span>
                         </div>
                     </div>
+                    
+                    <a href="#contact" class="btn-primary">GET STARTED TODAY</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="services-bg">
-            <video autoplay muted loop>
-                <source src="images/services-video.mp4" type="video/mp4">
-            </video>
-        </div>
+    <section class="services" id="services">
         <div class="container">
-            <h2 class="section-title white-title">Our Services</h2>
+            <div class="section-header">
+                <span class="section-tag">OUR SERVICES</span>
+                <h2>TRANSFORM YOUR BODY WITH EXPERT GUIDANCE</h2>
+                <p>Professional fitness services designed to help you achieve your health and wellness goals</p>
+            </div>
+            
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">🏋️</div>
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
                     <h3>Weight Training</h3>
-                    <p>Build strength and muscle with our comprehensive weight training programs</p>
+                    <p>Professional weight training programs with certified bodybuilding trainers and state-of-the-art equipment for muscle building and strength development.</p>
                 </div>
+                
                 <div class="service-card">
-                    <div class="service-icon">💪</div>
+                    <div class="service-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
                     <h3>Fitness Training</h3>
-                    <p>Improve your overall fitness with personalized training routines</p>
+                    <p>Comprehensive fitness training programs tailored to your individual goals with expert guidance from certified fitness professionals.</p>
                 </div>
+                
                 <div class="service-card">
-                    <div class="service-icon">❤️</div>
-                    <h3>Cardio</h3>
-                    <p>Boost your cardiovascular health with our modern cardio equipment</p>
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Cardio & CrossFit</h3>
+                    <p>High-intensity cardio workouts and CrossFit training sessions in our fully air-conditioned gym with modern equipment.</p>
                 </div>
+                
                 <div class="service-card">
-                    <div class="service-icon">🔥</div>
-                    <h3>CrossFit</h3>
-                    <p>High-intensity functional fitness for maximum results</p>
+                    <div class="service-icon">
+                        <i class="fas fa-weight"></i>
+                    </div>
+                    <h3>Weight Management</h3>
+                    <p>Specialized programs for weight management, body transformation, and achieving your ideal physique with professional support.</p>
                 </div>
+                
                 <div class="service-card">
-                    <div class="service-icon">⚖️</div>
-                    <h3>Weight Loss/Gain</h3>
-                    <p>Achieve your target weight with our specialized programs</p>
+                    <div class="service-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Aerobics & Zumba</h3>
+                    <p>Fun and energetic aerobics classes including Zumba sessions for all fitness levels in our motivating group environment.</p>
                 </div>
+                
                 <div class="service-card">
-                    <div class="service-icon">🥗</div>
+                    <div class="service-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
                     <h3>Diet Consultancy</h3>
-                    <p>Expert nutrition guidance to complement your fitness journey</p>
+                    <p>Professional nutrition guidance, meal planning, and dietary consultation to complement your fitness journey and maximize results.</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Trainers Section -->
-    <section id="trainers" class="trainers">
-        <div class="container">
-            <h2 class="section-title">Our Expert Trainers</h2>
-            <div class="trainers-grid">
-                <!-- Trainer 1 -->
-                <div class="trainer-card">
-                    <div class="trainer-image">
-                        <img src="images/trainer1.jpg" alt="Mike Johnson">
-                        <div class="trainer-overlay">
-                            <div class="trainer-quote">
-                                "Dedication leads to success"
-                            </div>
+            
+            <div class="additional-services">
+                <h3>Our Premium Facilities</h3>
+                <div class="facilities-cards">
+                    <div class="facility-card">
+                        <div class="facility-icon">
+                            <i class="fas fa-user-tie"></i>
                         </div>
+                        <h4>Certified Trainers</h4>
+                        <p>Certified bodybuilding & fitness trainers</p>
                     </div>
-                    <div class="trainer-info">
-                        <h3>Mike Johnson</h3>
-                        <p class="trainer-specialty">Personal Training Specialist</p>
-                        <p class="trainer-desc">5+ years experience in strength training and bodybuilding. Certified fitness expert dedicated to helping you achieve your goals.</p>
-                        <div class="trainer-skills">
-                            <span class="skill">Weight Training</span>
-                            <span class="skill">Bodybuilding</span>
-                            <span class="skill">Nutrition</span>
+                    
+                    <div class="facility-card">
+                        <div class="facility-icon">
+                            <i class="fas fa-snowflake"></i>
                         </div>
+                        <h4>Climate Controlled</h4>
+                        <p>Fully air conditioned gym environment</p>
                     </div>
-                </div>
-
-                <!-- Trainer 2 -->
-                <div class="trainer-card">
-                    <div class="trainer-image">
-                        <img src="images/trainer2.jpg" alt="David Silva">
-                        <div class="trainer-overlay">
-                            <div class="trainer-quote">
-                                "Push your limits every day"
-                            </div>
+                    
+                    <div class="facility-card">
+                        <div class="facility-icon">
+                            <i class="fas fa-cogs"></i>
                         </div>
-                    </div>
-                    <div class="trainer-info">
-                        <h3>David Silva</h3>
-                        <p class="trainer-specialty">Strength & Conditioning Coach</p>
-                        <p class="trainer-desc">Expert in CrossFit and functional fitness. Passionate about helping athletes reach peak performance levels.</p>
-                        <div class="trainer-skills">
-                            <span class="skill">CrossFit</span>
-                            <span class="skill">Cardio</span>
-                            <span class="skill">Conditioning</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Trainer 3 -->
-                <div class="trainer-card">
-                    <div class="trainer-image">
-                        <img src="images/trainer3.jpg" alt="Sarah Chen">
-                        <div class="trainer-overlay">
-                            <div class="trainer-quote">
-                                "Wellness is a lifestyle"
-                            </div>
-                        </div>
-                    </div>
-                    <div class="trainer-info">
-                        <h3>Sarah Chen</h3>
-                        <p class="trainer-specialty">Fitness & Wellness Coach</p>
-                        <p class="trainer-desc">Specializes in weight loss, aerobics, and holistic wellness. Creating personalized fitness journeys for women.</p>
-                        <div class="trainer-skills">
-                            <span class="skill">Weight Loss</span>
-                            <span class="skill">Aerobics</span>
-                            <span class="skill">Wellness</span>
-                        </div>
+                        <h4>Modern Equipment</h4>
+                        <p>State-of-the-art fitness equipment</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Membership Section -->
-    <section id="membership" class="membership">
+    <!-- Testimonials Section -->
+    <section class="testimonials">
         <div class="container">
-            <h2 class="section-title">Membership Plans</h2>
-            <div class="membership-grid">
-                <!-- Men's Plans -->
-                <div class="membership-card popular">
-                    <div class="card-header">
-                        <h3>Men's Membership</h3>
-                        <div class="badge">Popular</div>
-                    </div>
-                    <div class="pricing-table">
-                        <div class="price-row">
-                            <span class="duration">Day</span>
-                            <span class="price">Rs. 1,000</span>
-                        </div>
-                        <div class="price-row">
-                            <span class="duration">1 Month</span>
-                            <span class="price">Rs. 5,500</span>
-                        </div>
-                        <div class="price-row">
-                            <span class="duration">3 Months</span>
-                            <span class="price">Rs. 13,500</span>
-                        </div>
-                        <div class="price-row featured">
-                            <span class="duration">Annual</span>
-                            <span class="price">Rs. 45,000</span>
-                        </div>
-                    </div>
-                    <p class="admission">Admission: Rs. 2,000 (Free for Annual)</p>
-                    <button class="membership-btn">Choose Plan</button>
+            <div class="testimonials-content">
+                <div class="testimonials-text">
+                    <span class="section-tag">TESTIMONIALS</span>
+                    <h2>What Our Members Say</h2>
+                    <p>Real stories from real people who transformed their lives at NXT Life Fitness</p>
                 </div>
-
-                <!-- Ladies' Plans -->
-                <div class="membership-card">
-                    <div class="card-header">
-                        <h3>Ladies' Membership</h3>
-                    </div>
-                    <div class="pricing-table">
-                        <div class="price-row">
-                            <span class="duration">Day</span>
-                            <span class="price">Rs. 750</span>
-                        </div>
-                        <div class="price-row">
-                            <span class="duration">1 Month</span>
-                            <span class="price">Rs. 4,500</span>
-                        </div>
-                        <div class="price-row">
-                            <span class="duration">3 Months</span>
-                            <span class="price">Rs. 12,500</span>
-                        </div>
-                        <div class="price-row featured">
-                            <span class="duration">Annual</span>
-                            <span class="price">Rs. 40,000</span>
+                
+                <div class="testimonial-card" id="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="client-info">
+                            <img src="images/client-1.jpg" alt="Happy Client" class="client-avatar">
+                            <div class="client-details">
+                                <h4>Priya Mendis</h4>
+                                <span class="client-role">Fitness Enthusiast</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <p class="admission">Admission: Rs. 2,000 (Free for Annual)</p>
-                    <button class="membership-btn">Choose Plan</button>
+                    <p class="testimonial-text">"Solid place to workout 💪💪💪"</p>
                 </div>
-
-                <!-- Couple Plans -->
-                <div class="membership-card">
-                    <div class="card-header">
-                        <h3>Couple Membership</h3>
-                    </div>
-                    <div class="pricing-table">
-                        <div class="price-row">
-                            <span class="duration">Day</span>
-                            <span class="price">Rs. 1,500</span>
-                        </div>
-                        <div class="price-row">
-                            <span class="duration">1 Month</span>
-                            <span class="price">Rs. 9,500</span>
-                        </div>
-                        <div class="price-row">
-                            <span class="duration">3 Months</span>
-                            <span class="price">Rs. 23,500</span>
-                        </div>
-                        <div class="price-row featured">
-                            <span class="duration">Annual</span>
-                            <span class="price">Rs. 60,000</span>
-                        </div>
-                    </div>
-                    <p class="admission">Admission: Rs. 2,000 (Free for Annual)</p>
-                    <button class="membership-btn">Choose Plan</button>
+                
+                <div class="testimonial-nav">
+                    <button class="testimonial-btn prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="testimonial-btn next"><i class="fas fa-chevron-right"></i></button>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- Family Plans - Centered Below -->
-            <div class="family-membership">
-                <div class="membership-card premium">
-                    <div class="card-header">
-                        <h3>Family Membership</h3>
-                        <div class="badge">Best Value</div>
-                    </div>
-                    <div class="pricing-table">
-                        <div class="price-row featured">
-                            <span class="duration">Annual</span>
-                            <span class="price">Rs. 100,000</span>
+    <!-- Pricing Section - UPDATED FOR 2 ROWS -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">PRICING TABLE</span>
+                <h2>WORKING HOURS & CLASSES</h2>
+                <p>Choose the perfect membership plan that fits your lifestyle and fitness goals</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- First Row: Men's and Women's Membership -->
+                <div class="pricing-row">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Men's Membership</h3>
+                            <p>Complete fitness package for men</p>
                         </div>
+                        <div class="pricing-body">
+                            <div class="price-item">
+                                <span class="duration">Daily</span>
+                                <span class="price">Rs.1,000</span>
+                                <span class="admission">Rs.2,000 Admission</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">1 Month</span>
+                                <span class="price">Rs.5,500</span>
+                                <span class="admission">Rs.2,000 Admission</span>
+                            </div>
+                            <div class="price-item featured">
+                                <span class="duration">3 Months</span>
+                                <span class="price">Rs.13,500</span>
+                                <span class="admission">Free Admission</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">Annual</span>
+                                <span class="price">Rs.45,000</span>
+                                <span class="admission">Free Admission</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Full gym access</li>
+                                <li><i class="fas fa-check"></i> Weight training</li>
+                                <li><i class="fas fa-check"></i> Cardio equipment</li>
+                                <li><i class="fas fa-check"></i> Professional guidance</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn-primary">CHOOSE PLAN</a>
                     </div>
-                    <p class="admission">No Admission Fee</p>
-                    <button class="membership-btn premium-btn">Choose Plan</button>
+                    
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Women's Membership</h3>
+                            <p>Specialized fitness programs for women</p>
+                        </div>
+                        <div class="pricing-body">
+                            <div class="price-item">
+                                <span class="duration">Daily</span>
+                                <span class="price">Rs.750</span>
+                                <span class="admission">Rs.2,000 Admission</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">1 Month</span>
+                                <span class="price">Rs.4,500</span>
+                                <span class="admission">Rs.2,000 Admission</span>
+                            </div>
+                            <div class="price-item featured">
+                                <span class="duration">3 Months</span>
+                                <span class="price">Rs.12,500</span>
+                                <span class="admission">Free Admission</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">Annual</span>
+                                <span class="price">Rs.40,000</span>
+                                <span class="admission">Free Admission</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Ladies-only sections</li>
+                                <li><i class="fas fa-check"></i> Zumba & Aerobics</li>
+                                <li><i class="fas fa-check"></i> Specialized programs</li>
+                                <li><i class="fas fa-check"></i> Female trainers available</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn-primary">CHOOSE PLAN</a>
+                    </div>
+                </div>
+                
+                <!-- Second Row: Couple and Family Membership -->
+                <div class="pricing-row">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Couple Membership</h3>
+                            <p>Train together, stay motivated together</p>
+                        </div>
+                        <div class="pricing-body">
+                            <div class="price-item">
+                                <span class="duration">Daily</span>
+                                <span class="price">Rs.1,500</span>
+                                <span class="admission">Rs.2,000 Admission</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">1 Month</span>
+                                <span class="price">Rs.9,500</span>
+                                <span class="admission">Rs.2,000 Admission</span>
+                            </div>
+                            <div class="price-item featured">
+                                <span class="duration">3 Months</span>
+                                <span class="price">Rs.23,500</span>
+                                <span class="admission">Free Admission</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">Annual</span>
+                                <span class="price">Rs.60,000</span>
+                                <span class="admission">Free Admission</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Two memberships included</li>
+                                <li><i class="fas fa-check"></i> Partner training sessions</li>
+                                <li><i class="fas fa-check"></i> Flexible scheduling</li>
+                                <li><i class="fas fa-check"></i> Motivational support</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn-primary">CHOOSE PLAN</a>
+                    </div>
+                    
+                    <div class="pricing-card special">
+                        <div class="pricing-header">
+                            <h3>Family Package</h3>
+                            <p>Best value for the whole family</p>
+                        </div>
+                        <div class="pricing-body">
+                            <div class="price-item featured">
+                                <span class="duration">Annual Plan</span>
+                                <span class="price">Rs.100,000</span>
+                                <span class="admission">Free Admission</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Up to 4 family members</li>
+                                <li><i class="fas fa-check"></i> All services included</li>
+                                <li><i class="fas fa-check"></i> Family fitness programs</li>
+                                <li><i class="fas fa-check"></i> Best value package</li>
+                                <li><i class="fas fa-check"></i> Priority booking</li>
+                                <li><i class="fas fa-check"></i> Nutrition consultation</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn-primary">CHOOSE PLAN</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section class="contact" id="contact">
         <div class="container">
-            <h2 class="section-title white-title">Contact Us</h2>
+            <div class="section-header">
+                <span class="section-tag">GET IN TOUCH</span>
+                <h2>CONTACT US TODAY</h2>
+                <p>Ready to start your fitness journey? Get in touch with us today!</p>
+            </div>
+            
             <div class="contact-content">
-                <div class="contact-info">
+                <div class="contact-details">
                     <div class="contact-item">
-                        <div class="contact-icon">📍</div>
-                        <div>
-                            <h3>Address</h3>
-                            <p>No 27, 1/1/1 Kandy - Colombo Rd<br>11300, Sri Lanka</p>
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Visit Our Gym</h3>
+                            <p>No 27 1, 1/1 Kandy - Colombo Rd,<br>Kiribathgoda 11300, Sri Lanka</p>
                         </div>
                     </div>
+                    
                     <div class="contact-item">
-                        <div class="contact-icon">📞</div>
-                        <div>
-                            <h3>Phone</h3>
-                            <p>+94 77 367 2564<br>+94 77 703 2483</p>
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Call Us Now</h3>
+                            <p><a href="tel:+94773672564">0773 672 564</a><br>
+                               <a href="tel:+94777032483">0777 032 483</a></p>
                         </div>
                     </div>
+                    
                     <div class="contact-item">
-                        <div class="contact-icon">✉️</div>
-                        <div>
-                            <h3>Email</h3>
-                            <p>nxtlifefitness@gmail.com</p>
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email Us</h3>
+                            <p><a href="mailto:nxtlifefitness@gmail.com">nxtlifefitness@gmail.com</a></p>
                         </div>
                     </div>
+                    
                     <div class="contact-item">
-                        <div class="contact-icon">🕒</div>
-                        <div>
-                            <h3>Hours</h3>
-                            <p>Mon - Sat: 5 AM to 10 PM<br>Sunday: 7 AM to 1 PM</p>
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Operating Hours</h3>
+                            <p>Mon - Sat: 5:00 AM - 10:00 PM<br>Sunday: 7:00 AM - 1:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="https://web.facebook.com/profile.php?id=61579551995050" target="_blank" rel="noopener">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/nxtlifefitness/" target="_blank" rel="noopener">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@nxtlifefitness" target="_blank" rel="noopener">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a href="https://wa.me/94777032483?text=Hi%2C%20I%27m%20interested%20in%20joining%20NXT%20Life%20Fitness%20Center.%20Can%20you%20provide%20more%20information%3F" target="_blank" rel="noopener">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="contact-form">
-                    <h3>Send us a Message</h3>
-                    <form>
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="email" placeholder="Your Email" required>
-                        <input type="tel" placeholder="Your Phone">
-                        <textarea placeholder="Your Message" rows="5" required></textarea>
-                        <button type="submit" class="contact-btn">Send Message</button>
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="service" required>
+                                <option value="">Select Service Interest</option>
+                                <option value="weight-training">Weight Training</option>
+                                <option value="fitness-training">Fitness Training</option>
+                                <option value="cardio">Cardio</option>
+                                <option value="crossfit">CrossFit</option>
+                                <option value="weight-management">Weight Loss/Gain</option>
+                                <option value="aerobics">Aerobics & Zumba</option>
+                                <option value="diet-consultancy">Diet Consultancy</option>
+                                <option value="membership">Membership Inquiry</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">SEND MESSAGE</button>
                     </form>
                 </div>
             </div>
-
-            <!-- Google Map -->
-            <div class="map-section">
-                <h3>Find Us</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6850.927718373571!2d79.92355164006477!3d6.977991580848436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae257a6386a3f69%3A0x643310b76cca9bbc!2sMamba%20Fitness%20%2F%20Nxt%20Life%20Gym!5e0!3m2!1sen!2sus!4v1756053063481!5m2!1sen!2sus" 
-                    width="100%" 
-                    height="400" 
-                    style="border:0; border-radius: 15px; margin-top: 3rem;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+            
+            <div class="map-container">
+                <h3>Find Us on Map</h3>
+                <div class="map-wrapper">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.3696887!2d79.9240234!3d6.9770458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2593e45c8b8e7%3A0x5f5c5c8b8b8b8b8b!2sNXT%20Life%20Fitness%20Centre%20%26%20Gym!5e0!3m2!1sen!2slk!4v1693234567890!5m2!1sen!2slk" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h2>NXT LIFE FITNESS</h2>
+                    <p>Transform your body, transform your life. Your next level starts now with professional training, modern equipment, and a supportive community.</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/profile.php?id=61579551995050" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/nxtlifefitness/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@nxtlifefitness" target="_blank">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://wa.me/94777032483" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Our Services</h3>
+                    <ul class="footer-services">
+                        <li>Weight Training</li>
+                        <li>Fitness Training</li>
+                        <li>Cardio & CrossFit</li>
+                        <li>Aerobics & Zumba</li>
+                        <li>Diet Consultancy</li>
+                        <li>Personal Training</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-services">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Operating Hours</h3>
+                    <div class="working-hours">
+                        <div class="hours-item">
+                            <span class="day">Monday - Saturday</span>
+                            <span class="time">5:00 AM - 10:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Sunday</span>
+                            <span class="time">7:00 AM - 1:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Phone</span>
+                            <span class="time">0773 672 564</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Email</span>
+                            <span class="time">nxtlifefitness@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 NXT Life Fitness Center & Gym. All rights reserved. | Designed with ❤️ for your fitness journey</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
