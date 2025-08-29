@@ -463,14 +463,14 @@ function initTestimonialSlider() {
             name: "Sanduni Gunathilaka",
             role: "Fitness Enthusiast",
             rating: 5,
-            text: "Best gym ever, with the best lady trainer—Ms. Oshi helped me achieve my dream with her full effort. I'm forever thankful, and there are no words to truly thank her. This place is not only inspiring, but it also feels so safe and secure. I recommend this gym with all my heart! ❤️❤️❤️",
+            text: "Best gym ever. I'm forever thankful, and there are no words to truly thanks. This place is not only inspiring, but it also feels so safe and secure. I recommend this gym with all my heart! ❤️❤️❤️",
             image: "images/client-2.jpg"
         },
         {
             name: "Ramish Perea",
             role: "Regular Member",
             rating: 5,
-            text: "Well equipped and clean fitness center to all users. Trainer is friendly and knowledgeable of the subject. Madushan is the main trainer and the owner. Happy to train here.",
+            text: "Well equipped and clean fitness center to all users. Trainer is friendly and knowledgeable of the subject. Mr.kasun is the owner of the NXT Life Fitness. Happy to train here.",
             image: "images/client-3.jpg"
         },
         {
